@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" />
+    <node name="MediaPipe_pose_tutle" pkg="robosys2021_homework2" type="main.py" />
+    <node name="MediaPipe_pose_node" pkg="robosys2021_homework2" type="Pose_coordinate.py" />
+</launch>
