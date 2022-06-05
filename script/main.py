@@ -1,8 +1,7 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import rospy
-import moveit_commander
 import geometry_msgs.msg
 import math
 from geometry_msgs.msg import Point
